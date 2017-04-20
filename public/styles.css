@@ -1,0 +1,19 @@
+body {
+  max-width: 600px;
+  padding: 20px;
+
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.quote {
+  margin-top: 0.5em;
+}
+
+.quote > span:first-child {
+  font-weight: bold
+}
+
+.quote > span:first-child:after {
+  content:':'
+}
